@@ -131,7 +131,7 @@ html {
 /* ============= HOME SECTION ============= */
 .home {
   display: flex;
-  background: url("/src/img/banner-bg0.png") top;
+  background-color: #331867;
   color: var(--color-white);
   height: 100vh;
   min-height: 500px;
@@ -213,7 +213,7 @@ footer {
 
   font-family: 'Poppins', sans-serif;
   display: flex;
-  background: url("/src/img/banner-bg.png") top;
+  background-color: var(--color-black-clean);
   color: var(--color-white);
   height: 90vh;
   min-height: 500px;
@@ -386,7 +386,7 @@ section .title::after {
 
 /* ============= SKILLS SECTION ============= */
 .skills .title::after {
-  background: var(--clean-white-purple);
+  background-color: #331867;
   content: "Competências";
   white-space: nowrap;
 }
